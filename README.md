@@ -41,7 +41,8 @@ on the twisted website: https://pypi.python.org/pypi/Twisted or: https://twisted
 Start up music_server through the cli:
 ./music_server.py
 
-Usage: music-server.py [args]
+Usage: 
+music-server.py [args]
     -b | --background 
         Fork process into background and create .pid file with running process.
         
@@ -97,6 +98,7 @@ Usage: music-server.py [args]
 Any network client may be used to control this software.  The program is simply listening for 
 any of the following case insensitive commands:
 
+Available Commands:
 PLAY
     Start playing.
 STOP
@@ -113,6 +115,7 @@ PREVIOUS SONG
 HELP
     Returns available commands.
 
+Test:
 To test operation with netcat:
 nc localhost 9999
 play
