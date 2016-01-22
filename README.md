@@ -114,6 +114,9 @@ any of the following case insensitive commands:
 	HELP
 	    Returns available commands.
 
+Testing can be accomplished with any simple TCP connection.  Netcat / telnet can be used from
+any machine.  A simple Python socket program could also be used, or executed in the interactive shell.
+
 	Test:
 	To test operation with netcat:
 	
