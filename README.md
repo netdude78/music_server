@@ -97,7 +97,7 @@ Start up music_server through the cli:
 Any network client may be used to control this software.  The program is simply listening for 
 any of the following case insensitive commands:
 
-Available Commands:
+	Available Commands:
 	PLAY
 	    Start playing.
 	STOP
