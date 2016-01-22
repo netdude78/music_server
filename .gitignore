@@ -1,0 +1,32 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Python bytecode #
+###################
+*.pyc
+
+# Any sample files #
+####################
+*.tgz
+*.enc
+
+# PID Files        #
+####################
+*.pid
+
+# local directories  #
+######################
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
