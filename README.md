@@ -114,8 +114,9 @@ any of the following case insensitive commands:
 	HELP
 	    Returns available commands.
 
-Test:
+	Test:
 	To test operation with netcat:
+	
 	nc localhost 9999
 	play
 	Now Playing
