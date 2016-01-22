@@ -17,13 +17,13 @@ actions.
 * Continually randomly plays tracks from a specified directory.
 * Listens on network socket to allow control from a remote machine
 * Available network commands:
-** Play
-** Stop
-** Pause
-** Resume (un-pause)
-** Next (skip to next randomly selected track)
-** Restart Song (replay current song from the beginning)
-** Previous Song (play previous song)
+	* Play
+	* Stop
+	* Pause
+	* Resume (un-pause)
+	* Next (skip to next randomly selected track)
+	* Restart Song (replay current song from the beginning)
+* Previous Song (play previous song)
 * Auto-play when program starts for unattended use
 
 ## Requirements
