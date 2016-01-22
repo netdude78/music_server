@@ -41,8 +41,7 @@ on the twisted website: https://pypi.python.org/pypi/Twisted or: https://twisted
 Start up music_server through the cli:
 ./music_server.py
 
-Usage: 
-music-server.py [args]
+	Usage: music-server.py [args]
     -b | --background 
         Fork process into background and create .pid file with running process.
         
@@ -99,42 +98,42 @@ Any network client may be used to control this software.  The program is simply 
 any of the following case insensitive commands:
 
 Available Commands:
-PLAY
-    Start playing.
-STOP
-    Stop Playing.
-NEXT
-    Skip to Next Song.
-    And plays, if stopped.
-RESTART SONG
-    Rewinds to beginning of song.
-    And plays, if stopped.
-PREVIOUS SONG
-    Rewinds to beginning of previous song.
-    And plays, if stopped.
-HELP
-    Returns available commands.
+	PLAY
+	    Start playing.
+	STOP
+	    Stop Playing.
+	NEXT
+	    Skip to Next Song.
+	    And plays, if stopped.
+	RESTART SONG
+	    Rewinds to beginning of song.
+	    And plays, if stopped.
+	PREVIOUS SONG
+	    Rewinds to beginning of previous song.
+	    And plays, if stopped.
+	HELP
+	    Returns available commands.
 
 Test:
-To test operation with netcat:
-nc localhost 9999
-play
-Now Playing
-stop
-Stopping.
-play
-Now Playing
-dmac:music_server dstoll$ nc localhost 9999
-play
-Now Playing
-next
-Fast Forwarding to Next Song
-pause
-Paused Song
-resume
-Resumed Playing Song
-stop
-Stopping.
+	To test operation with netcat:
+	nc localhost 9999
+	play
+	Now Playing
+	stop
+	Stopping.
+	play
+	Now Playing
+	dmac:music_server dstoll$ nc localhost 9999
+	play
+	Now Playing
+	next
+	Fast Forwarding to Next Song
+	pause
+	Paused Song
+	resume
+	Resumed Playing Song
+	stop
+	Stopping.
 
 A sample pythonista (http://omz-software.com/pythonista/) control app is included in the extras/ directory.
 
