@@ -1,0 +1,280 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "pi control",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {320, 320}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "uuid" : "5258313A-BC51-4BEA-963A-50BB9257FBF1",
+          "name" : "button1",
+          "action" : "_play",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "▶️"
+        },
+        "frame" : "{{30, 80}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "⏸",
+          "name" : "button2",
+          "action" : "_pause",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "6C4CE315-2D01-4F4F-B269-2A206DBF1EB3"
+        },
+        "frame" : "{{106, 80}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "⏹",
+          "name" : "button3",
+          "action" : "_stop",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "9919FC2A-7581-4CCF-8046-6A72896B307F"
+        },
+        "frame" : "{{261, 80}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "⏩",
+          "name" : "button4",
+          "action" : "_next",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "A753CFB6-0D67-45CA-8C0E-794E01684C10"
+        },
+        "frame" : "{{262, 161}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "◀️",
+          "name" : "button5",
+          "action" : "_restart",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "B84BABB3-C076-40C9-80F7-0CE134865610"
+        },
+        "frame" : "{{30, 161}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "⏯",
+          "name" : "button6",
+          "action" : "_resume",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "B848D561-EF7E-4568-AF52-AD36542ACF1C"
+        },
+        "frame" : "{{184, 80}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 30,
+          "title" : "⏪",
+          "name" : "button7",
+          "action" : "_previous",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "uuid" : "6B79A268-B5EC-4F67-8FA8-271491531925"
+        },
+        "frame" : "{{144, 161}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Play",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{30, 113}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Pause",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{98, 113}, {47, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Resume",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{171, 113}, {60, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Stop",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{261, 113}, {32, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Restart",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{16, 194.36452}, {60, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Previous",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{131.36958, 194.36452}, {60, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Next",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "72F982F4-F022-4F77-BAB5-A4ADB5DE7959"
+        },
+        "frame" : "{{246, 194.36452}, {60, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Pi Music Control",
+          "font_name" : "<System>",
+          "name" : "label2",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "C15AF19C-B00D-4BFA-A048-6691F39A54A8"
+        },
+        "frame" : "{{0, 15}, {320, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

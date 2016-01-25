@@ -1,0 +1,5 @@
+LaunchCenter Pro Action
+
+Paste this in as an action to call the play_music.py script in Pythonista.  Adjust for where you download the py script.
+
+pythonista://{{play_music.py}}?action=run&args={{[list:Choose an Action|Play|Pause|Resume|Stop|Next|Previous Song|Restart Song]}}
